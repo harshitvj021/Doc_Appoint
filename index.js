@@ -8,6 +8,7 @@ const doctorRoutes = require("./routes/doctorRoute")
 const connectDb = require("./config/connectDb");
 const path = require("path");
 
+
 //dotenv conig
 dotenv.config();
 connectDb();
