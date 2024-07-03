@@ -69,49 +69,6 @@ MERN (MongoDB, Express, React, Node.js) stack web application for booking doctor
 <p align="center">
   <img alt="img-name" src="Images/Users List from Admin.png" width="700">
 </p>
-  
-## Installation
-
-To set up BloodLife locally, follow these steps:
-
-- Clone the repository:
-
-      git clone https://github.com/OviSarkar62/AppointDoc.git
-      
-- Install the required dependencies for backend:
-
-      npm install express joi jsonwebtoken moment mongoose morgan nodemon zxcvbn dotenv colors bcryptjs
-     
-- Navigate to the client directory: 
-
-       cd client
-    
-- Install the dependencies for the client: 
-
-       npm i react-router-dom react-redux axios antd @reduxjs/toolkit react-bootstrap moment
-    
-- Create a .env file in the root directory with the following environment variables:
-
-       DB_URL = mongodb+srv://<user>:<pass>@cluster0.l17quyr.mongodb.net/database
-
-       JWT_SECRET = A_Secret_Value
-  
-       PORT = 4000
-
-- Start the server: 
-
-       npm start
-    
-- In a new terminal window, navigate to the client directory:
-
-       cd client
-    
-- Start the client: 
-
-       npm start
-    
-- Access the application. Open your web browser and visit http://localhost:3000 to access the application.
-
 
 ## Usage
 
